@@ -8,5 +8,3 @@ CORS(app)
 @app.route('/',methods=['POST'])
 def indexing():
     return jsonify("yolo")
-    
-
